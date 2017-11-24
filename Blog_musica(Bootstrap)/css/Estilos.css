@@ -1,0 +1,21 @@
+.img{
+    height: 30px;
+    margin: auto;
+    
+}
+
+.img-logo{
+    height: 80px;
+}
+
+
+.header{
+    margin-top: 2%;
+    margin-right: auto;
+    
+
+}
+
+.navbar-inverse{
+    background-color:cadetblue
+}
