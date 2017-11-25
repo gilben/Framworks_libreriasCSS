@@ -1,21 +1,39 @@
-.img{
-    height: 30px;
-    margin: auto;
+body
+
+
+.nav-header{
+ background: rgba(236,240,236,1);
+    color:white;
+    border: none;
+    box-shadow: 2px 2px 2px 1px
+    
     
 }
 
-.img-logo{
-    height: 80px;
-}
-
-
-.header{
-    margin-top: 2%;
-    margin-right: auto;
+.navs{
+    text-align: center;
     
-
+    background: rgba(76,76,76,1);
+    margin-top: 3em;
+   
+    
 }
 
-.navbar-inverse{
-    background-color:cadetblue
+navbar-right{
+    padding: 1em;
+}
+
+
+img{
+    height: 50px;
+}
+
+.img-social{
+    margin-top: 20px
+}
+
+.jumbotron{
+    margin-top: 3em;
+    padding-bottom: 0px ;
+    
 }
