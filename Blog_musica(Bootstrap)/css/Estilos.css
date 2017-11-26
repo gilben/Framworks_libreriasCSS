@@ -1,10 +1,10 @@
 body{
-    background-color:beige;
+    background-color:#092140;
 }
 
 
 .nav-header{
- background: cadetblue;
+ background: #F2C777;
     color:white;
     border: none;
 
@@ -15,7 +15,7 @@ body{
 .navs{
     text-align: center;
     
-    background: rgba(76,76,76,1);
+    background: #024959;
     margin-top: 3em;
    
     
@@ -37,13 +37,14 @@ img{
 .jumbotron{
     margin-top: 3em;
     padding-bottom: 0px ;
-    background-color: cadetblue
+    background-color:#F2C777
     
 }
 
 .contenedor{
     border-radius: 4px ;
-   background-color: cadetblue
+   background-color: #024959;
+color: beige
 }
 .lista{
     padding: 1em;
@@ -52,4 +53,14 @@ img{
 .div-contenido{
     padding: inherit;
     text-align:justify
+}
+
+li{
+   font-size: 2vw;
+    
+}
+
+textarea{
+    background-color:transparent!important;
+    border: 3px solid #024959!important
 }
