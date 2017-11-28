@@ -1,6 +1,35 @@
+@font-face {
+    font-family: 'Handlee';
+    src: url('../Fonts/Handlee-Regular.ttf');
+    
+    
+    font-family: 'Rancho';
+    src: url('../Fonts/Rancho-Regular.ttf');
+    
+    
+
+    
+}
+
+@font-face{
+          font-family: 'Glyphicons Halflings';
+ 
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+    
+    
+}
 body{
     background-color:#092140;
+     
+   
 }
+
+
+
 
 
 .nav-header{
@@ -37,7 +66,8 @@ img{
 .jumbotron{
     margin-top: 3em;
     padding-bottom: 0px ;
-    background-color:#F2C777
+    background-color:#F2C777;
+        
     
 }
 
@@ -48,19 +78,82 @@ color: beige
 }
 .lista{
     padding: 1em;
+    
 }
 
 .div-contenido{
     padding: inherit;
-    text-align:justify
+    text-align:justify;
+    
+        
 }
 
-li{
-   font-size: 2vw;
-    
+a,h2{
+   font-size: 30px;
+    color: #F2C777;
+     font-family: 'Rancho';
+
 }
+
+h2{
+    margin-top: auto;
+}
+
+p{
+    font-family:sans-serif;
+}
+
+
+
+
+
 
 textarea{
     background-color:transparent!important;
-    border: 3px solid #024959!important
+    border: 3px solid #024959!important;
+    margin-bottom:1vw
+        
 }
+
+
+.div-derecho{
+    width: 80%;
+    border-radius: 15px 15px ; 
+    background-color:#024959;
+    text-align: center;
+    color: blanchedalmond;
+    padding: 10px;
+    border: 0px ;
+    margin: 1%
+   
+   
+}
+input{
+   
+  
+
+  
+       
+    
+}
+
+#btn-buscar{
+  
+}
+#buscar{
+    margin-top: 1%!important;
+   
+    width: 80%;
+    margin: auto;
+    border-radius: 60px 60px !important;
+
+    
+    padding: 8px;
+  
+    
+    
+    
+}
+
+
+
