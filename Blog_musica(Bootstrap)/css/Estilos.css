@@ -1,106 +1,122 @@
 @font-face {
     font-family: 'Handlee';
     src: url('../Fonts/Handlee-Regular.ttf');
-    
-    
+
+
     font-family: 'Rancho';
     src: url('../Fonts/Rancho-Regular.ttf');
-    
-    
 
-    
+
+
+
 }
 
-@font-face{
-          font-family: 'Glyphicons Halflings';
- 
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
-       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
-       url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
-       url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-    
-    
-}
-body{
-    background-color:#092140;
-     
-   
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+    url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+
+
 }
 
+body {
+    background-color: #092140;
+
+
+}
 
 
 
 
-.nav-header{
- background: #F2C777;
-    color:white;
+
+.nav-header {
+    background: #F2C777;
+    color: white;
     border: none;
 
-    
-    
+
+
 }
 
-.navs{
+.navs {
     text-align: center;
-    
+
     background: #024959;
     margin-top: 3em;
-   
-    
+
+
 }
 
-.navbar-right{
+.navbar-right {
     padding-right: 1em;
 }
 
 
-img{
+.img-social ,.img-nav{
     height: 50px;
 }
 
-.img-social{
+
+
+
+.img-left{
+float: left ;  
+margin-right:10px" 
+}
+.img-right{
+float: right ;  
+margin-right:10px" 
+}
+
+.img-social {
     margin-top: 20px
 }
 
-.jumbotron{
+.jumbotron {
     margin-top: 3em;
-    padding-bottom: 0px ;
-    background-color:#F2C777;
-        
-    
+    padding-bottom: 0px;
+    background-color: #F2C777;
+
+
 }
 
-.contenedor{
-    border-radius: 4px ;
-   background-color: #024959;
-color: beige
+.contenedor {
+    border-radius: 4px;
+    background-color: #024959;
+    color: beige
 }
-.lista{
+
+.lista {
     padding: 1em;
-    
+
 }
 
-.div-contenido{
+.div-contenido {
     padding: inherit;
-    text-align:justify;
-    
-        
+    text-align: justify;
+
+
 }
 
-a,h2{
-   font-size: 30px;
+.ul-nav,
+h2 {
+    font-size: 30px;
     color: #F2C777;
-     font-family: 'Rancho';
-
+    font-family: 'Rancho';
 }
 
-h2{
+
+
+h2 {
     margin-top: auto;
 }
 
-p{
-    font-family:sans-serif;
+p {
+    font-family: sans-serif;
 }
 
 
@@ -108,52 +124,76 @@ p{
 
 
 
-textarea{
-    background-color:transparent!important;
-    border: 3px solid #024959!important;
-    margin-bottom:1vw
-        
+textarea {
+    background-color: transparent!important;
+    border: 1px solid !important;
+    margin-bottom: 1vw;
+    color: #F2C777!important;
+    font-family: 'Rancho';
+    font-size: 10px;
 }
 
 
-.div-derecho{
-    width: 80%;
-    border-radius: 15px 15px ; 
-    background-color:#024959;
+.div-derecho {
+    width: 90%;
+    border-radius: 15px 15px;
+
     text-align: center;
-    color: blanchedalmond;
     padding: 10px;
-    border: 0px ;
-    margin: 1%
+    border: 0px;
+    margin: auto;
    
-   
-}
-input{
-   
-  
 
-  
-       
+
+
+}
+
+
+
+
+footer{
+
+background-color:  #F2C777;
+    padding: 12px;
+    text-align: center;
+    float:none!important;
+    margin: 0 auto;
     
 }
 
-#btn-buscar{
-  
-}
-#buscar{
+
+#buscar {
     margin-top: 1%!important;
-   
-    width: 80%;
+
+    width: 90%;
     margin: auto;
     border-radius: 60px 60px !important;
-
-    
     padding: 8px;
-  
-    
+
+}
+
+#contenedor-prin{
+    background-color: #024959;
+    margin: 0 auto;
+    float: none;
     
     
 }
 
+.li-derecho{
+    background-color: transparent;
+     font-family: 'Rancho';
+    font-size: 20px!important;
+   
+}
+.a-derecho{
+    color: #F2C777;
+}
+
+.comentario{
+    color: #F2C777;
+    font-family: 'Rancho';
+    font-size: 20px
+}
 
 
