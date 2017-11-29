@@ -130,7 +130,8 @@ textarea {
     margin-bottom: 1vw;
     color: #F2C777!important;
     font-family: 'Rancho';
-    font-size: 10px;
+    font-size: 20px!important;
+    border-radius: 100px ;
 }
 
 
