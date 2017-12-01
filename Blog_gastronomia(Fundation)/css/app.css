@@ -1,7 +1,35 @@
 div{
-    border: 2px solid 
+    border: 2px ;
+    
+    
 }
 
-h2{
+.div{
+    background-color: antiquewhite;
+ 
+    
+}
+.div-contenedor{
+  margin-top: 1%;
+    
+    
+}
+
+body{
+    background-image: url("../img/jay.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+    
+        
+    
+}
+
+.div-right{
+
+    background-color: cadetblue;
+  
+   
+    
+        
     
 }
