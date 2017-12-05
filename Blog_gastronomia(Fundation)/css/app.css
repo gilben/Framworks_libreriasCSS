@@ -1,18 +1,28 @@
-div{
-    border: 2px ;
-    
-    
-}
+
 
 .div{
     background-color: antiquewhite;
- 
-    
+  
 }
 .div-contenedor{
-  margin-top: 1%;
-    
-    
+  
+    background:rgba(3,3,3,0.5);
+    padding: 8px;
+  
+        
+
+}
+
+
+.div-contenedor-header{
+  
+    background:rgba(3,3,3,0.5);
+ 
+    border-bottom: 1px solid black;
+    padding: 4px;
+        
+        
+
 }
 
 body{
@@ -26,10 +36,28 @@ body{
 
 .div-right{
 
-    background-color: cadetblue;
+   background-color:aliceblue;
+    padding: 3px;
   
-   
-    
-        
-    
+
+  
 }
+input{
+   border-radius: 18px!important;
+}
+
+.div-head{
+border-right: 1px solid black;
+ 
+    color: aliceblue;
+}
+
+
+
+@media (max-width:400px){
+
+    .div-right{
+        padding: 0px;
+    }
+}
+
