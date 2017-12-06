@@ -61,3 +61,7 @@ border-right: 1px solid black;
     }
 }
 
+
+a:visited{
+    color: brow;
+}
