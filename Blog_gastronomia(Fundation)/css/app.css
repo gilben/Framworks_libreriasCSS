@@ -1,7 +1,9 @@
 
 
 .div{
-    background-color: antiquewhite;
+    background-color: #FFDF4F;
+   
+   
   
 }
 .div-contenedor{
@@ -26,9 +28,11 @@
 }
 
 body{
-    background-image: url("../img/jay.jpg");
+    background-image: url("../img/Vallarta.jpg");
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-attachment: fixed
+    
     
         
     
@@ -36,8 +40,9 @@ body{
 
 .div-right{
 
-   background-color:aliceblue;
+   background-color:#FFDF4F;
     padding: 3px;
+ 
   
 
   
@@ -62,6 +67,23 @@ border-right: 1px solid black;
 }
 
 
-a:visited{
-    color: brow;
+.a:visited{
+    color: crimson
+}
+
+.li{
+    background-color: #76BF72;
+    border: 1px dotted black;
+    border-radius: 15px
+    
+}
+.li:hover{
+    background-color:#1F9C8B; 
+}
+
+.li-right{
+    color: black;
+}
+.div-callout{
+    background-color: transparent;
 }
