@@ -59,10 +59,11 @@ border-right: 1px solid black;
 
 
 
-@media (max-width:400px){
+@media  (max-width:640px){
 
-    .div-right{
-        padding: 0px;
+    div{
+        margin: 0 auto!important;
+        padding: 0!important;
     }
 }
 
@@ -86,4 +87,24 @@ border-right: 1px solid black;
 }
 .div-callout{
     background-color: transparent;
+}
+
+.h3{
+     text-align: center;
+    border: 1px dotted black;
+    border-radius: 15px
+}
+
+.btn{
+    background-color: #76BF72;
+    border-radius: 7px;
+    
+    
+}
+.btn:hover{
+     background-color:#1F9C8B; 
+}
+
+.img-avatar{
+  
 }
