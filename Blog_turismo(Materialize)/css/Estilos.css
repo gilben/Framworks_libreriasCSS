@@ -5,8 +5,9 @@ div-img1{
     height: 100%
     
 }
-.img1{
-
+.img{
+height: 60px!important;
+    float: left;
 
 }
 
