@@ -26,5 +26,9 @@ height: 60px!important;
 }
 
 .btn-l{
-    width: 100px
+    width: 100px;
+}
+
+.header{
+    padding: 10px!important;
 }
