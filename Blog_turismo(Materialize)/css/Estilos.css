@@ -12,10 +12,14 @@ float: left;
 }
 
 .div-img2{
-   max-height: 300px;
+   max-height: 100%;
+    padding: 10px!important;
+    border: 3px black dotted;
+    position: inherit;
+    
 }
-.img2{
-   
+.div-img{
+   height:100%!important; 
     
         
 }
