@@ -14,7 +14,6 @@ float: left;
 .div-img2{
    max-height: 100%;
     padding: 10px!important;
-    border: 3px black dotted;
     position: inherit;
     
 }
@@ -55,5 +54,13 @@ body{
 
 .avatar-div{
     padding: 10px;
+}
+
+
+.background{
+    background-color: aliceblue;
+    padding: 4px!important;
+    margin: 8px;
+
 }
 
